@@ -1,12 +1,41 @@
  <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="index.css" rel="stylesheet"  />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+<link href="I:\ClipMine\assets\Javascript\index.css" rel="stylesheet"  />
 
 
 <style>
+* {
+  box-sizing: border-box;
+}
 
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
     
 .container {
   position: relative;
@@ -41,7 +70,7 @@ p.normal {
 
 
     <div class="navbar">
-        <img src="I:\ClipMine\assets\clipmine_logo_beta_226x50.png">
+        <img src="I:\ClipMine\assets\Images\clipmine_logo_beta_226x50.png">
         <ul>
           <a class="active" href="#"> Home</a> 
           <a href="#"> Help <i class="fa fa-fw fa-search"></i></a> 
@@ -57,7 +86,7 @@ p.normal {
         </div>
         
         <div class="container clearfix">
-          <img src="I:\ClipMine\assets\top-section_4360x1500.jpg" class="show">
+          <img src="I:\ClipMine\assets\Images\top-section_4360x1500.jpg" class="show">
           <div class="center"><h4>A Better Video Experience for the Web</h4>
           <h5 style="font-size: 15px;"> ClipMine enables Bloggers, creators and enthasiasts to tag content inside online videos and create a more engaging video experience.</h5>
           <button class="button">Sign Up</button>
@@ -72,34 +101,32 @@ p.normal {
 
 <p style="text-align:center">Help your viewers discover what matters the most to them</p>
 <center>
-<div class="row">
-    <div class="column">
-      <img src="I:\ClipMine\assets\image1.png" alt="Snow" style="width:80%;margin-left: auto;
+  <div class="row">
+    <div class="column" >
+      <img src="I:\ClipMine\assets\Images\image1.png" alt="Snow" style="width:80%;margin-left: auto;
       margin-right: auto">
-      <p>@01:07:45 The greatest thing about bill and steve's <br>relationship</p>
     </div>
-    <div class="column">
-      <img src="I:\ClipMine\assets\oneperson.png" alt="Forest" style="width:80%;align-items: center">
-      <p>@01:07:45 The greatest thing about bill and steve's <br>relationship</p>
+    <div class="column" >
+      <img src="I:\ClipMine\assets\Images\oneperson.png" alt="Forest" style="width:80%;align-items: center">
     </div>
-    <div class="column">
-      <img src="I:\ClipMine\assets\twoperson.png" alt="Mountains" style="width:80%;align-items: center">
-      <p>@01:07:45 The greatest thing about bill and steve's <br>relationship</p>
-   
+    <div class="column" >
+      <img src="I:\ClipMine\assets\Images\twoperson.png" alt="Mountains" style="width:80%;align-items: center">
     </div>
-  </div></center>
+  </div>
+  
+  </center>
   <p style="text-align: center;">ClipMine works best for sharing and embedding recorded video games sessions,tutorials,product review,talkshows,speeches,<br>lectures and sports coverage.Tryout more samples! </p>
 <p style="text-align: center;font-weight: bolder;font-weight: 900;">Features</p>
 <center>
     <div class="row1">
         <div class="column1">
-          <img src="I:\ClipMine\features\pic1.png" alt="Snow" style="width:70%;margin-left: auto;
+          <img src="I:\ClipMine\assets\features\pic1.png" alt="Snow" style="width:70%;margin-left: auto;
           margin-right: auto">
           <h3>Meaningful sharing</h3>
           <p> ClipMine works great for sharing and embedding recorded<br> video-games sessions, tutorials, product reviews, talkshows.<br> speeches,lectures and sport coverage.Try out more samples.</p>
         </div>
         <div class="column1">
-          <img src="I:\ClipMine\features\pic2.png" alt="Forest" style="width:70%;align-items: center">
+          <img src="I:\ClipMine\assets\features\pic2.png" alt="Forest" style="width:70%;align-items: center">
           <h3>Interactive Embeds</h3>
           
           <p> Want to enable the ClipMine experience on your Blogs or Twitter<br>feed? Just embed out Content-Aware Video Player.Its is<br>responsive ad built to work accross different modern browsers<br> and devices.Start by tagging a video of your choice or pick an<br>already tagged one and simply paste the embed code into your<br>website.</p>
@@ -107,7 +134,7 @@ p.normal {
         </div>
         <div class="column1">
           
-            <img src="I:\ClipMine\features\pic3.png" alt="Forest" style="width:70%;align-items: center">
+            <img src="I:\ClipMine\assets\features\pic3.png" alt="Forest" style="width:70%;align-items: center">
           <h3>Smart tagging</h3>
    <p>Found an interesting point in a video? On ClipMine, addiing<br> tags is not reserved for the video owners only-any community<br>member can do it.In addition our smart algorithms can <br>automatically suggest tags (in private beta) for a wide variety<br>of videos.</p>
        
@@ -121,7 +148,7 @@ p.normal {
       <center>
         <div class="row2">
             <div class="column2">
-              <img src="I:\ClipMine\benefits\index-benefit-personal_166x166.png" alt="Snow" style="width:30%;margin-left: auto;
+              <img src="I:\ClipMine\assets\benefits\index-benefit-personal_166x166.png" alt="Snow" style="width:30%;margin-left: auto;
               margin-right: auto">
               </div>
             <div class="column1">
@@ -136,7 +163,7 @@ p.normal {
           <center>
             <div class="row2">
                 <div class="column2">
-                  <img src="I:\ClipMine\benefits\index-benefit-engagement_166x166.png" alt="Snow" style="width:30%;margin-left: auto;
+                  <img src="I:\ClipMine\assets\benefits\index-benefit-engagement_166x166.png" alt="Snow" style="width:30%;margin-left: auto;
                   margin-right: auto">
                   </div>
                 <div class="column1">
@@ -150,7 +177,7 @@ p.normal {
               <center>
                 <div class="row2">
                     <div class="column2">
-                      <img src="I:\ClipMine\benefits\index-benefit-analytics_166x166.png" alt="Snow" style="width:30%;margin-left: auto;
+                      <img src="I:\ClipMine\assets\benefits\index-benefit-analytics_166x166.png" alt="Snow" style="width:30%;margin-left: auto;
                       margin-right: auto">
                       </div>
                     <div class="column1">
@@ -170,7 +197,7 @@ p.normal {
                     <div class="column3">
 
                         <div class="containertext1">
-                      <img src="I:\ClipMine\collections\collection-startup_920x368.png" alt="Snow" style="width:70%;height: 200pt;margin-left: auto;
+                      <img src="I:\ClipMine\assets\collections\collection-startup_920x368.png" alt="Snow" style="width:70%;height: 200pt;margin-left: auto;
                       margin-right: auto">
                       <div class="centeredtext1">STARTUPS</div>
                       
@@ -178,7 +205,7 @@ p.normal {
                     </div>
                          <div class="column3">
                           <div class="containertext1">
-                        <img src="I:\ClipMine\collections\collection-ml_922x368.png" alt="Forest" style="width:70%;height: 200pt;align-items: center">
+                        <img src="I:\ClipMine\assets\collections\collection-ml_922x368.png" alt="Forest" style="width:70%;height: 200pt;align-items: center">
                         <div class="centeredtext1">MACHINE LEARNING</div>
                     </div>
                 </div>
@@ -207,16 +234,16 @@ p.normal {
                <center>
                 <div class="row4">
                     <div class="column4">
-                      <img src="I:\ClipMine\partners\partner-yc_430x188.png" alt="Snow" style="width:80%;margin-left: auto;
+                      <img src="I:\ClipMine\assets\partners\partner-yc_430x188.png" alt="Snow" style="width:80%;margin-left: auto;
                       margin-right: auto">
                     
                     </div>
                     <div class="column4">
-                      <img src="I:\ClipMine\partners\partner-blackbox_430x188.png" alt="Forest" style="width:80%;align-items: center">
+                      <img src="I:\ClipMine\assets\partners\partner-blackbox_430x188.png" alt="Forest" style="width:80%;align-items: center">
                     
                     </div>
                     <div class="column4">
-                      <img src="I:\ClipMine\partners\partner-ucf_430x188.png" alt="Mountains" style="width:80%;align-items: center">
+                      <img src="I:\ClipMine\assets\partners\partner-ucf_430x188.png" alt="Mountains" style="width:80%;align-items: center">
                     
                    
                     </div>
@@ -224,16 +251,16 @@ p.normal {
                   <center>
                     <div class="row5">
                         <div class="column5">
-                          <img src="I:\ClipMine\partners\partner-500startups_430x188.png" alt="Snow" style="width:80%;margin-left: auto;
+                          <img src="I:\ClipMine\assets\partners\partner-500startups_430x188.png" alt="Snow" style="width:80%;margin-left: auto;
                           margin-right: auto">
                       
                         </div>
                         <div class="column5">
-                          <img src="I:\ClipMine\partners\partner-bothsides_430x188.png" alt="Forest" style="width:80%;align-items: center">
+                          <img src="I:\ClipMine\assets\partners\partner-bothsides_430x188.png" alt="Forest" style="width:80%;align-items: center">
                       
                         </div>
                         <div class="column5">
-                          <img src="I:\ClipMine\partners\partner-cv_430x188.png" alt="Mountains" style="width:80%;align-items: center">
+                          <img src="I:\ClipMine\assets\partners\partner-cv_430x188.png" alt="Mountains" style="width:80%;align-items: center">
                       
                        
                         </div>
@@ -264,10 +291,10 @@ p.normal {
 
 <div class="containerCust">
 	<p> Supported Platforms</p>
-	<img class="column8" src="platforms/platform-youtube_115x50.png">
-	<img class="column8" src="platforms/platform-vimeo_115x50.png">
-	<img class="column8" src="platforms/platform-dailymotion_115x50.png">
-	<img class="column8" src="platforms/platform-html5_115x50.png">
+	<img class="column8" src="assets\platforms/platform-youtube_115x50.png">
+	<img class="column8" src="assets\platforms/platform-vimeo_115x50.png">
+	<img class="column8" src="assets\platforms/platform-dailymotion_115x50.png">
+	<img class="column8" src="assets\platforms/platform-html5_115x50.png">
 	
 </div>
 
