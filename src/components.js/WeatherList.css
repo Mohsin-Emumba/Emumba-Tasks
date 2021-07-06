@@ -1,0 +1,13 @@
+.Fivedays {
+  margin-top: 60px;
+  margin-left: -300px;
+  left: 80px;
+}
+/* .Fivedays .column {
+  padding-left: 2px;
+} */
+.rowlist {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-template-columns: auto auto auto;
+}

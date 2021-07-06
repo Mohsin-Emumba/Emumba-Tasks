@@ -1,0 +1,83 @@
+.displayweather {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  height: 400px;
+  flex-flow: column nowrap;
+}
+
+.maincard {
+  width: 80%;
+  padding: 20px;
+  height: 280px;
+  position: relative;
+  margin-left: 1%;
+  margin-top: 2%;
+  /* border: 1px solid rgb(66, 49, 4); */
+}
+
+.maincard .cardtitle {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  font-size: 1.8rem;
+  color: rgb(131, 125, 125);
+}
+
+.maincard .cardsubtitle {
+  position: absolute;
+  left: 50px;
+  font-size: 1.4rem;
+  color: rgb(131, 125, 125);
+  margin-top: -8px;
+  top: 48px;
+}
+.maincard .status {
+  position: absolute;
+  left: 50px;
+  font-size: 1.4rem;
+  color: rgb(131, 125, 125);
+  margin-top: -10px;
+  top: 75px;
+}
+
+.maincard .tempp h1 {
+  font-size: 6rem;
+  margin-top: 110px;
+  font-weight: 400;
+  margin-right: 450px;
+  color: rgb(131, 125, 125);
+}
+
+.maincard .tempp h3 {
+  font-size: 3.2rem;
+  margin-top: -96px;
+  font-weight: 350;
+  margin-right: 250px;
+  color: rgb(131, 125, 125);
+}
+.maincard .tempp h3 .sup {
+  font-size: 30px;
+  color: rgb(131, 125, 125);
+  font-weight: lighter;
+  top: 100px;
+}
+.maincard .weather-icon {
+  width: 100px;
+  left: 70px;
+  position: absolute;
+  top: 135px;
+}
+
+.maincard .desc {
+  line-height: 7px;
+  width: 240px;
+  margin-top: -62px;
+  word-spacing: 2px;
+  margin-left: 95%;
+  text-align: left;
+
+  color: rgb(131, 125, 125);
+  font-weight: 250;
+  font-size: x-large;
+}
